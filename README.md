@@ -6,7 +6,7 @@ Home Care BD is BD's largest nursing care service provider. We provide highly qu
 
 ## Live Link
 
-https://online-it-academy-jkd.netlify.app/
+https://home-care-bd-jkd.netlify.app/
  
 ## Key Features::
 
