@@ -1,19 +1,22 @@
+/* Header logo img style */
 .logo-img{
     width: 150px;
     height: 100px;
 }
+/* nav menu style */
 .nav-menu {
     color: white;
     font-size: 20px;
     text-decoration: none;
   }
-  
+/* nav menu hover */
   .nav-menu:hover {
     color: red;
     background-color:rgb(12, 12, 11);
     border-radius: 5px;
     padding: 5px;
   }
+  /* Site name style */
   .site-name{
       background-color: goldenrod;
       border-radius: 10px;

@@ -74,7 +74,7 @@
         "InstrName": "Jahir Raihan",
         "InstrDetails": "Full-Stack Web Developer & Product Designer",
         "img": "../images/care-7.jpg",
-        "detailImg": "../images/care-12.jpg"
+        "detailImg": "../images/care-15.jpg"
     },
     {
         "serviceId": "sid108",
@@ -85,7 +85,7 @@
         "InstrName": "Joynal Abedin",
         "InstrDetails": "Full-Stack Web Developer & Product Designer; Co-Founder",
         "img": "../images/care-8.jpg",
-        "detailImg": "../images/care-12.jpg"
+        "detailImg": "../images/care-14.jpg"
     },
     {
         "serviceId": "sid109",
@@ -96,7 +96,7 @@
         "InstrName": "Lucas",
         "InstrDetails": "Full-Stack Web Developer & Product Designer",
         "img": "../images/care-9.jpg",
-        "detailImg": "../images/care-12.jpg"
+        "detailImg": "../images/care-13.jpg"
     },
     {
         "serviceId": "sid110",
@@ -107,6 +107,6 @@
         "InstrName": "Ahmed Siam Jwel",
         "InstrDetails": "Full-Stack Web Developer & Product Designer",
         "img": "../images/care-10.jpg",
-        "detailImg": "../images/care-12.jpg"
+        "detailImg": "../images/care-14.jpg"
     }
 ]

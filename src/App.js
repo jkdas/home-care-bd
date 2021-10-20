@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
 import Services from './Component/Services/Services';
-import Blogs from './Component/Blogs/Blogs';
 import Login from './Component/Login/Login';
 import NotFound from './Component/NotFound/NotFound';
 import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
@@ -34,13 +33,9 @@ function App() {
             <PrivateRoute path="/service/:sid">
               <MoreDetails></MoreDetails>
             </PrivateRoute>
-            <PrivateRoute path="/blogs">
-              <Blogs></Blogs>
-            </PrivateRoute>
             <Route path="/login">
               <Login></Login>
             </Route>
-
             <PrivateRoute path="/appointment">
               <Appointment></Appointment>
             </PrivateRoute>

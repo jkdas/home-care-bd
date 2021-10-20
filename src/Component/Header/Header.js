@@ -5,6 +5,7 @@ import useAuth from '../../hooks/useAuth';
 import "./Header.css";
 
 const Header = () => {
+    //Distructuring user and Logout from useAuth() function
     const { user, logOut } = useAuth();
     return (
         <>
@@ -25,24 +26,19 @@ const Header = () => {
                                     <NavLink className="nav-menu" to="/services">Service</NavLink>
                                     <NavLink className="nav-menu" to="/appointment">Appointment</NavLink>
                                     <NavLink className="nav-menu" to="/about">About</NavLink>
-                                    {user?.email && <span className="user-name" style={{ color: 'white' }}>Hello {user.displayName} </span>}
-                                    {
-                                        user.email ?
-                                            <button className="btn-info" onClick={logOut}>log out</button>
-                                            :
-                                            <NavLink className="nav-menu" to="/login">Login/Register</NavLink>}
-                                </Stack>
+                                    {/* User Name and Log out button display here */}
+                                    <div>
+                                        {user?.email && <span className="user-name" style={{ color: 'white' }}>Hello {user.displayName} </span>}
+                                        {
+                                            user.email ?
+                                                <button className="btn-info" onClick={logOut}>log out</button>
+                                                :
+                                                <NavLink className="nav-menu" to="/login">Login/Register</NavLink>}
+                                    </div>
 
+                                </Stack>
                             </Nav>
-                            <Form className="d-flex">
-                                <FormControl
-                                    type="search"
-                                    placeholder="Search"
-                                    className="me-2"
-                                    aria-label="Search"
-                                />
-                                <Button variant="dark">Search</Button>
-                            </Form>
+
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

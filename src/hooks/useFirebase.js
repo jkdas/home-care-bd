@@ -15,28 +15,31 @@ const useFirebase = () => {
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
 
-
+    //Handle Name input
     const handleNameChange = e => {
         setName(e?.target?.value)
     }
-
+    //Handle Email input
     const handleEmailChange = e => {
         setEmail(e?.target?.value)
     }
-
+    //Handle Password input
     const handlePasswordChange = e => {
         setPassword(e?.target?.value)
     }
+    //Toggle Register/Login 
     const toggleLogin = e => {
         setIsLogin(e.target.checked);
     }
+    //Set User name
     const setUserName = () => {
         updateProfile(auth.currentUser, { displayName: name })
             .then(result => { })
     }
+    //Handle Registration 
     const handleRegistration = e => {
         e.preventDefault();
-
+        //Check password strength
         if (password.length < 6) {
             setError("Password must be at least 6 characters long.");
             return
@@ -44,6 +47,7 @@ const useFirebase = () => {
         isLogin ? processLogin(email, password) : createNewUser(email, password);
 
     }
+    //Process Login function
     const processLogin = (email, password) => {
         signInWithEmailAndPassword(auth, email, password)
             .then(result => {
@@ -54,6 +58,7 @@ const useFirebase = () => {
                 setError(error.message);
             })
     }
+    //Register User
     const createNewUser = (email, password) => {
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
@@ -66,7 +71,7 @@ const useFirebase = () => {
                 setError(error.message);
             })
     }
-
+    // Sign in using Google
     const signInUsingGoogle = () => {
         return signInWithPopup(auth, googleProvider)
             .finally(() => { setLoading(false) });
@@ -81,7 +86,7 @@ const useFirebase = () => {
             .finally(() => setLoading(false))
     }
 
-    // observe whether user auth state changed or not
+    // Auth state changed or not
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (user) => {
             if (user) {

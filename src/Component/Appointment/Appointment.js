@@ -1,19 +1,17 @@
 import React from 'react';
 import { Button, Col, FloatingLabel, Form, Row } from 'react-bootstrap';
-
+//Apointment Component
 const Appointment = () => {
     return (
         <>
             <div className="bg-secondary">
                 <div className="container">
                     <h2 className="mb-4 text-center text-white">Make an Appointment</h2>
-
                     <Row className="ms-4">
                         <Col md="5">
                             <div>
                                 <img className="img-fluid" src="./images/appointment.png" alt="" />
                             </div>
-
                         </Col>
                         <Col md="7" className="p-3">
                             <Form>
@@ -37,7 +35,7 @@ const Appointment = () => {
                                         <Form.Label>Address</Form.Label>
                                         <Form.Control placeholder="Address" />
                                     </Form.Group>
-
+                                    {/* Choose Services here */}
                                     <Form.Group as={Col} controlId="formGridState">
                                         <Form.Label>Services</Form.Label>
                                         <Form.Select defaultValue="Choose...">

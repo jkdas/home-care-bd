@@ -31,10 +31,10 @@ const Login = () => {
                     <Form.Group className="mb-3" controlId="formBasicCheckbox">
                         <Form.Check onChange={toggleLogin} type="checkbox" label="Already Registered?" />
                     </Form.Group>
-
                     <Button variant="primary" type="submit">
                         {isLogin ? 'Sign In' : 'Register'}
                     </Button>
+
                 </Form>
                 {/* <p>new to our website? <Link to="/login">Register Here</Link></p> */}
                 <div>-------or----------</div>
