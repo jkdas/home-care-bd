@@ -1,0 +1,14 @@
+.client-img{
+    border-radius: 50%;
+    margin-left: 100px;
+    padding: 20px;
+}
+.body{
+    overflow-x: hidden;
+}
+.city-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}

@@ -1,0 +1,112 @@
+[
+    {
+        "serviceId": "sid101",
+        "serviceName": "Elderly Care Attendants",
+        "description": "Professional elderly care attendants to visit your near and dear ones. Including bedside attendants and companions for administering medicines, injections, IV infusions, as well as for feeding, bathing, cleaning, grooming, and other bathroom assistance for your loved ones. If needed our elderly care assistants can also help run errands, or accompany elders to social events.",
+        "duration": "01 Oct - 25 Nov 2021",
+        "totalHours": 30,
+        "InstrName": "Abedin Rasel",
+        "InstrDetails": "Full-Stack Web Developer & Product Designer",
+        "img": "../images/care-1.jpg",
+        "detailImg": "../images/care-11.png"
+    },
+    {
+        "serviceId": "sid102",
+        "serviceName": "Home Nursing Services",
+        "description": "Experienced home nurses for diabetes care, cancer care, cardiac and respiratory care, orthopedic care, neurological care, and more. Including home nurses for cancer and chemotherapy patients, including breast cancer, cervical cancer, and colon cancer. As well as cardiac and respiratory care for asthma, bronchitis, cardiomyopathy, congestive heart failure, and coronary artery disease.",
+        "duration": "08 Oct - 13 Nov 2021",
+        "totalHours": 60,
+        "InstrName": "Javed Omar",
+        "InstrDetails": "QA Analyst",
+        "img": "../images/care-2.jpg",
+        "detailImg": "../images/care-12.png"
+    },
+    {
+        "serviceId": "sid103",
+        "serviceName": "Post Surgery Care",
+        "description": "Post-operative care for major surgeries including abdominal, abscess, amputation, angioplasty, appendectomy, CABG, cataract, cholecystectomy, colostomy, craniotomy, hair transplant, hernia, hysterectomy, kidney transplant, LSCS, mastectomy, tonsillitis, TARP syndrome, tracheostomy, tympanoplasty, and other critical care surgeries.",
+        "duration": "09 Oct - 18 Dec 2021",
+        "totalHours": 40,
+        "InstrName": "Shah Alam",
+        "InstrDetails": "Cyber Security Expert",
+        "img": "../images/care-3.jpg",
+        "detailImg": "../images/care-13.jpg"
+    },
+    {
+        "serviceId": "sid104",
+        "serviceName": "Medical Equipment on Rent",
+        "description": "We can help setup and manage a complete home ICU setup, as well as help procure professional medical equipment on rent including a hospital bed, oxygen cylinder, oxygen concentrator, oxygen therapy machine, ventilator, nebuliser, Ambu bag, BIPAP machine, CPAP machine, ECG machine, multi-parameter monitor, DVT pump, suction pump, infusion pump, air mattress, wheelchair, walker, and more",
+        "duration": "05 Oct - 30 Dec 2021",
+        "totalHours": 60,
+        "InstrName": "Faruk Amededd",
+        "InstrDetails": "Full Stack developer",
+        "img": "../images/care-4.jpg",
+        "detailImg": "../images/care-14.jpg"
+    },
+    {
+        "serviceId": "sid105",
+        "serviceName": "Injection and Medical Tests at Home",
+        "description": "We can help our clients with administering injections or vaccinations at home. And also help arrange an array of essential medical tests at home, including all blood investigations, ECG, ABG, Sleep Study, Holter Monitoring, X-Ray, and more.",
+        "duration": "16 Oct - 11 Dec 2021",
+        "totalHours": 50,
+        "InstrName": "Jamal Uddin Bhuyian",
+        "InstrDetails": "Full-Stack Web Developer & Product Designer; Co-Founder & \tCEO, Symbl",
+        "img": "../images/care-5.jpg",
+        "detailImg": "../images/care-15.jpg"
+    },
+    {
+        "serviceId": "sid106",
+        "serviceName": "Baby Home Care",
+        "description": "Looking after a newborn baby is a tiresome duty. Currently professional infant care has gained recognition and popularity in Bangladesh.  A newborn baby needs constant attention and care.It’s no easy job. Well, you can leave your responsibilities on us.  Our professional caregiver fulfills the physical, social, and.",
+        "duration": "16 Oct - 15 Jan 2022",
+        "totalHours": 90,
+        "InstrName": "Md Jahangir Alam",
+        "InstrDetails": "Full-Stack Web Developer & Product Designer",
+        "img": "../images/care-6.jpg",
+        "detailImg": "../images/care-16.jpg"
+    },
+    {
+        "serviceId": "sid107",
+        "serviceName": "Personal Home Care",
+        "description": "Nursing Home Care offers personal care at home for aged people and post surgical patients.  Plenty of seniors and patients with severe disease need help in daily chores. Personal care includes bathing, grooming, toilet hygiene, medical supervision. They may seem trivial. But getting professional help for disabled persons or seniors is of great value",
+        "duration": "16 Oct - 04 Dec 2021",
+        "totalHours": 40,
+        "InstrName": "Jahir Raihan",
+        "InstrDetails": "Full-Stack Web Developer & Product Designer",
+        "img": "../images/care-7.jpg",
+        "detailImg": "../images/care-12.jpg"
+    },
+    {
+        "serviceId": "sid108",
+        "serviceName": "Home Health Therapy",
+        "description": "Home health therapy is a type of therapy session taken place at home. The therapist travels to the patient’s home for the therapy session. Home-based therapies are time-saving. They promote faster healing. We deal with a range of disabilities. It is a one to one session. We format personalized plans for home therapy. We have worked with geriatric and…",
+        "duration": "23 Oct - 31 Dec 2021",
+        "totalHours": 70,
+        "InstrName": "Joynal Abedin",
+        "InstrDetails": "Full-Stack Web Developer & Product Designer; Co-Founder",
+        "img": "../images/care-8.jpg",
+        "detailImg": "../images/care-12.jpg"
+    },
+    {
+        "serviceId": "sid109",
+        "serviceName": "Oxygen Rent/Sell",
+        "description": "We deliver high quality Oxygen Cylinder Rent In Dhaka, Bangladesh within an hour. Oxygen is a vital essence of life. Unfortunately, many illnesses affect our normal breathing. Diseases like Asthma, heart failure require a supplement. Oxygen therapy helps in breathing functions. We deliver all kinds of oxygen cylinders. BE it liquid oxygen or oxygen.",
+        "duration": "23 Oct - 23 Dec 2021",
+        "totalHours": 72,
+        "InstrName": "Lucas",
+        "InstrDetails": "Full-Stack Web Developer & Product Designer",
+        "img": "../images/care-9.jpg",
+        "detailImg": "../images/care-12.jpg"
+    },
+    {
+        "serviceId": "sid110",
+        "serviceName": "Physiotherapy",
+        "description": "Physiotherapy is a health care profession which assists people to restore, maintain and maximize their strength, function, movement, and overall well-being. The terms “physiotherapy” and “physical therapy” mean the same thing and are used interchangeably, as are the terms “physiotherapist” and “physical therapist”.",
+        "duration": "15 Oct - 14 Jan 2022",
+        "totalHours": 45,
+        "InstrName": "Ahmed Siam Jwel",
+        "InstrDetails": "Full-Stack Web Developer & Product Designer",
+        "img": "../images/care-10.jpg",
+        "detailImg": "../images/care-12.jpg"
+    }
+]

@@ -1,0 +1,10 @@
+.service-img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%; 
+}
+
+.card-body{
+    overflow-x: hidden;
+}
