@@ -10,6 +10,9 @@ https://home-care-bd-jkd.netlify.app/
  
 ## Key Features::
 
+- Home nursing service in Bangladesh provides services to families to help clients remain in their home.
+- Visitors can find highly reliable and exceptional care from home.
+- Visitors can make an online appointment by using appointment features.
  - All our experienced nurses and medically qualified attendants are highly reliable and can be well-trusted to take exceptional care of your near and dear ones.
  - Get well in the company of family and friends in your own house, and not in an impersonal and sterile hospital room with limited visitors and visiting hours.
  - We have direct relationships with leading medical brands and can help source medical dressings and medical equipment on rent, including hospital beds, ICU units, and more at the most competitive prices.
